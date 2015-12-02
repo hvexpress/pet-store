@@ -94,17 +94,24 @@ footer .fine-print {
 }
 /*end of footer*/
 
+/*media queries*/
+@media (max-width: 767px) {
+	.center{
+		float:none;
+		margin:0 auto;
+	}
+	.bottom{
+		top: 0;
+	}
 
+	.social{
+		text-align:center;
+		font-size: 45px;
+	}
+	
+}
 
-
-
-
-
-
-
-
-
-
+/*end media queries*/
 
 
 
